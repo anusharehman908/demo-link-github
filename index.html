@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & CSS Quiz</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>🎉 HTML & CSS Quiz Challenge! 🎉</h1>
+    <form action="#" method="POST">
+      
+      <!-- Question 1 -->
+      <div class="form-group">
+        <label for="html-question">1. What does the `<a>` tag do?</label>
+        <div class="answer-options">
+          <label><input type="radio" name="html-answer" value="link"> Creates a hyperlink to another page</label>
+          <label><input type="radio" name="html-answer" value="image"> Displays an image</label>
+          <label><input type="radio" name="html-answer" value="heading"> Defines a heading</label>
+        </div>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="form-group">
+        <label for="css-question">2. What is the purpose of `float` in CSS?</label>
+        <div class="answer-options">
+          <label><input type="radio" name="css-answer" value="position"> Specifies the position of an element</label>
+          <label><input type="radio" name="css-answer" value="layout"> Allows elements to be positioned next to each other</label>
+          <label><input type="radio" name="css-answer" value="visibility"> Makes an element visible or hidden</label>
+        </div>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="form-group">
+        <label for="name">3. Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="form-group">
+        <label for="email">4. Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="form-group">
+        <label for="age">5. Your Roll number:</label>
+        <input type="number" id="age" name="num" placeholder="Enter your roll" min="number" required>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="form-group">
+        <label for="gender">6. Gender:</label>
+        <div class="radio-group">
+          <label><input type="radio" name="gender" value="male" required> Male</label>
+          <label><input type="radio" name="gender" value="female" required> Female</label>
+          <label><input type="radio" name="gender" value="other" required> Other</label>
+        </div>
+      </div>
+
+      <!-- Question 7 -->
+      <div class="form-group">
+        <label for="subscribe">7. Subscribe to Newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes"> Yes, I would like to receive updates.
+      </div>
+
+      <!-- Submit Button -->
+      <div class="form-group full-width">
+        <button type="submit">Submit Quiz</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
